@@ -53,7 +53,7 @@
     ~~~
     
 
-![1566910364704](C:\Users\Regent Wan\AppData\Roaming\Typora\typora-user-images\1566910364704.png)
+![1566910364704](https://github.com/RegentWan/python/blob/master/wordcloud/res/1566910364704.png)
 
 + 实际操作过程
 
@@ -107,7 +107,7 @@
     
     ~~~
   
-    ![1566911000733](C:\Users\Regent Wan\AppData\Roaming\Typora\typora-user-images\1566911000733.png)
+    ![1566911000733](https://github.com/RegentWan/python/blob/master/wordcloud/res/1566911000733.png)
   
 + **词云形状**mask
 
@@ -149,9 +149,9 @@
     wc.to_file("wc.png")
     ~~~
     
-    ![1566911928203](C:\Users\Regent Wan\AppData\Roaming\Typora\typora-user-images\1566911928203.png)
+    ![1566911928203](https://github.com/RegentWan/python/blob/master/wordcloud/res/1566911928203.png)
     
-    ![1566911782935](C:\Users\Regent Wan\AppData\Roaming\Typora\typora-user-images\1566911782935.png)
+    ![1566911782935](https://github.com/RegentWan/python/blob/master/wordcloud/res/1566911782935.png)
     
 + 注意
 
@@ -189,4 +189,4 @@ plt.axis("off")
 plt.show()
 ~~~
 
-![1566912387980](C:\Users\Regent Wan\AppData\Roaming\Typora\typora-user-images\1566912387980.png)
+![1566912387980](https://github.com/RegentWan/python/blob/master/wordcloud/res/1566912387980.png)
