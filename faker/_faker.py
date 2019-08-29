@@ -1,3 +1,15 @@
+# coding=utf-8
+
+'''
+Author:Regent Wan
+Email:wanrunjun@gmail.com
+微信公众号：学术创客
+Github:https://github.com/RegentWan
+
+Date:2019/8/20 11:19
+Desc:测试数据库 假数据
+'''
+
 from faker import Faker
 from faker.providers import internet
 
