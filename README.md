@@ -8,3 +8,4 @@ jieba 是一个python实现的中文分词组件，在中文分词界非常出�
 ## [3.词云绘制：wordcloud](https://github.com/RegentWan/python/tree/master/wordcloud)
 wordcloud 将文章中词频最高的前k个词显示在图片中，形成词云。
 ## [4.数据可视化：matplotlib](https://github.com/RegentWan/python/tree/master/matplotlib)
+matplotlib将数据呈现为漂亮的统计图表，然后进一步发现数据中包含的规律以及隐藏的信息。
