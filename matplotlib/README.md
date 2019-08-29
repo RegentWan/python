@@ -4,7 +4,7 @@
 
 数据的处理、分析和可视化已经成为Python近年来最为重要的应用领域之一，其中数据的可视化指的是将数据呈现为漂亮的统计图表，然后进一步发现数据中包含的规律以及隐藏的信息。
 
-![1567049490506](res\1567049490506.png)
+![1567049490506](https://github.com/RegentWan/python/blob/master/matplotlib/res/1567049490506.png)
 
 #### 2.安装与使用
 
@@ -21,7 +21,7 @@
   plt.show()
   ~~~
 
-  ![1566996633457](res\1566996633457.png)
+  ![1566996633457](https://github.com/RegentWan/python/blob/master/matplotlib/res/1566996633457.png)
 
 #### 3.参数详解
 
@@ -59,7 +59,7 @@
 
 + **坐标刻度显示中文**
 
-  ![1563870480685](res\1563870480685.png)
+  ![1563870480685](https://github.com/RegentWan/python/blob/master/matplotlib/res/1563870480685.png)
 
   ```python
   from matplotlib import font_manager
@@ -135,7 +135,7 @@
   plt.show()
   ~~~
 
-  ![1566999236391](res\1566999236391.png)
+  ![1566999236391](https://github.com/RegentWan/python/blob/master/matplotlib/res/1566999236391.png)
 
   
 
@@ -159,13 +159,13 @@
 
   + plot
 
-    ![1567051825871](res\1567051825871.png)
+    ![1567051825871](https://github.com/RegentWan/python/blob/master/matplotlib/res/1567051825871.png)
 
 + 散点图
 
   + scatter
 
-    ![1567051903997](res\1567051903997.png)
+    ![1567051903997](https://github.com/RegentWan/python/blob/master/matplotlib/res/1567051903997.png)
 
 + 纵向条形图
 
@@ -199,7 +199,7 @@
     plt.show()
     ~~~
 
-    ![1567053122869](res\1567053122869.png)
+    ![1567053122869](https://github.com/RegentWan/python/blob/master/matplotlib/res/1567053122869.png)
 
 + 横向条形图
 
@@ -227,7 +227,7 @@
     plt.show()
     ~~~
 
-    ![1567060133738](res\1567060133738.png)
+    ![1567060133738](https://github.com/RegentWan/python/blob/master/matplotlib/res/1567060133738.png)
 
 + 直方图
 
@@ -263,7 +263,7 @@
     plt.show()
     ~~~
 
-    ![1567061255829](res\1567061255829.png)
+    ![1567061255829](https://github.com/RegentWan/python/blob/master/matplotlib/res/1567061255829.png)
 
   
 
@@ -284,7 +284,7 @@
     plt.show()
     ~~~
 
-    ![1567062564416](res\1567062564416.png)
+    ![1567062564416](https://github.com/RegentWan/python/blob/master/matplotlib/res/1567062564416.png)
 
 + 子图
 
@@ -305,7 +305,7 @@
     plt.show()
     ~~~
 
-    ![1567061635614](res\1567061635614.png)
+    ![1567061635614](https://github.com/RegentWan/python/blob/master/matplotlib/res/1567061635614.png)
 
 + 等高线图
 
