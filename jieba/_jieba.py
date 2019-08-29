@@ -1,3 +1,15 @@
+# coding=utf-8
+
+'''
+Author:Regent Wan
+Email:wanrunjun@gmail.com
+微信公众号：学术创客
+Github:https://github.com/RegentWan
+
+Date:2019/8/24 21:10
+Desc:
+'''
+
 import jieba
 import jieba.analyse
 
