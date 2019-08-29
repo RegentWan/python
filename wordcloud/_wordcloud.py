@@ -1,4 +1,15 @@
-#coding=utf-8
+# coding=utf-8
+
+'''
+Author:Regent Wan
+Email:wanrunjun@gmail.com
+微信公众号：学术创客
+Github:https://github.com/RegentWan
+
+Date:2019/8/27 19:30
+Desc:词云绘制示例
+'''
+
 import jieba
 import wordcloud
 from scipy.misc import imread
