@@ -143,5 +143,5 @@ Numpy提供了一个在Python中做科学计算的基础库，重在数值计算
 
 ​		本文由Regent Wan原创，关注公众号可以勾搭哟！更多文章请关注公众号：学术创客。
 
-![1567520731552](http://regentwan.3vhost.net/学术创客.jpg)
+![1567520731552](https://github.com/RegentWan/python/blob/master/%E5%AD%A6%E6%9C%AF%E5%88%9B%E5%AE%A2.png)
 
