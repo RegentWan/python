@@ -1,3 +1,8 @@
+​		本文由Regent Wan原创，关注公众号可以勾搭哟！更多文章请关注公众号：学术创客。
+
+![学术创客](https://github.com/RegentWan/python/blob/master/%E5%AD%A6%E6%9C%AF%E5%88%9B%E5%AE%A2.png)
+
+
 # numpy——数组支持
 
 ## 1.简介
