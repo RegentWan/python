@@ -4,11 +4,11 @@
 ![学术创客](https://github.com/RegentWan/python/blob/master/%E5%AD%A6%E6%9C%AF%E5%88%9B%E5%AE%A2.png)
 
 
-## Faker库——测试数据源
+# Faker库——测试数据源
 
 Python 中有个测试数据库，叫做 Faker，它可以自动帮我们来生成各种各样的看起来很真的”假“数据
 
-### 1 安装
+## 1 安装
 
 ~~~
 pip install faker
@@ -16,7 +16,7 @@ pip install faker
 
 
 
-### 2 使用
+## 2 使用
 
 ~~~python
 from faker import Faker
@@ -36,9 +36,9 @@ text: More moment how understand fast party. After administration visit now deep
 
 
 
-### 3 解析
+## 3 解析
 
-#### 3.1 数据语言
+### 3.1 数据语言
 
 在创建Faker对象时，可以指定数据的语言代号，从而产生不同国家的测试数据。默认英文en-US
 
@@ -57,7 +57,7 @@ faker=Faker('zh-CN')
 
 
 
-#### 3.2 随机种子
+### 3.2 随机种子
 
 ~~~
 fake.seed(integer)
@@ -65,11 +65,11 @@ fake.seed(integer)
 
 
 
-#### 3.3 Provider
+### 3.3 Provider
 
 这个 faker 库在设计上，为了解耦，将 Provider 对象做成了 Faker 对象的”插件“。Faker 可以添加一个个 Provider 对象，Provider 对象为 Faker 对象提供了生成某项数据的核心实现。就相当于 Faker 对象是一个生成器，它的生成功能依赖于 Provider，是 Provider 提供给了 Faker 对象生成某项数据的能力。其内置了如下默认的 Provider 对象。
 
-##### 自定义Provider
+#### 自定义Provider
 
 ~~~python
 from faker import Faker
@@ -93,7 +93,7 @@ fake.foo()
 
 
 
-##### 第三方Provider
+#### 第三方Provider
 
 ~~~
 from faker import Faker
@@ -109,7 +109,7 @@ print('IPv4 public:',faker.ipv4_public())
 
 
 
-##### Address
+#### Address
 
 用于生成一些和地址相关的数据，如地址、城市、邮政编码、街道等内容
 
@@ -158,7 +158,7 @@ fake.street_suffix()
 
 
 
-##### Color
+#### Color
 
 用于生成和颜色相关的数据，如 HEX、RGB、RGBA 等格式的颜色
 
@@ -184,7 +184,7 @@ fake.safe_hex_color()
 # '#77ee00'
 ~~~
 
-##### Company
+#### Company
 
 用于生成公司相关数据，如公司名、公司前缀、公司后缀等内容
 
@@ -212,7 +212,7 @@ fake.safe_hex_color()
 
 
 
-##### Credit card
+#### Credit card
 
 用于生成信用卡相关数据，如过期时间、银行卡号、安全码等内容
 
@@ -237,7 +237,7 @@ fake.credit_card_security_code(card_type=None)
 
 
 
-##### Date time
+#### Date time
 
 用于生成时间相关数据，如年份、月份、星期、出生日期等内容，可以返回 datetime 类型的数据
 
@@ -352,7 +352,7 @@ fake.year()
 
 
 
-##### Geo
+#### Geo
 
 用于生成和地理位置相关的数据，包括经纬度，时区等等信息
 
@@ -380,7 +380,7 @@ fake.longitude()
 
 
 
-##### Internet
+#### Internet
 
 用于生成和互联网相关的数据，包括随机电子邮箱、域名、IP 地址、URL、用户名、后缀名等内容
 
@@ -471,7 +471,7 @@ fake.user_name(*args, **kwargs)
 
 
 
-##### Job
+#### Job
 
 用于生成和职业相关的数据
 
@@ -480,7 +480,7 @@ faker.job()
 # '烫工'
 ~~~
 
-##### Lorem
+#### Lorem
 
 用于生成一些假文字数据，包括句子、自然段、长文本、关键词等，另外可以传入不同的参数来控制生成的长度
 
@@ -537,7 +537,7 @@ fake.words(nb=3, ext_word_list=None, unique=False)
 
 
 
-##### Misc
+#### Misc
 
 `faker.providers.misc`
 
@@ -560,7 +560,7 @@ faker.uuid4(cast_to=<class 'str'>)
 
 
 
-##### Person
+#### Person
 
 `faker.providers.person`
 
@@ -622,7 +622,7 @@ fake.suffix_male()
 
 
 
-##### Profile
+#### Profile
 
 用于生成一份详细简历和简要简历
 
@@ -657,7 +657,7 @@ fake.simple_profile(sex=None)
 
 
 
-##### Python
+#### Python
 
 用于生成python各类型数据
 
@@ -804,7 +804,7 @@ fake.pytuple(nb_elements=10, variable_nb_elements=True, *value_types)
 
 
 
-##### SSN
+#### SSN
 
 用于生成身份证号
 
@@ -817,7 +817,7 @@ fake.ssn(min_age=18, max_age=90)
 
 
 
-##### User agent
+#### User agent
 
 用于生成用户代理身份
 
@@ -866,3 +866,9 @@ fake.user_agent()
 fake.windows_platform_token()
 # 'Windows NT 6.1'
 ```
+
+
+
+​		本文由Regent Wan原创，关注公众号可以勾搭哟！更多文章请关注公众号：学术创客。
+
+![学术创客](https://github.com/RegentWan/python/blob/master/%E5%AD%A6%E6%9C%AF%E5%88%9B%E5%AE%A2.png)
