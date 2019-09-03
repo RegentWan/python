@@ -1,6 +1,11 @@
-### jieba库——中文分词处理
+​		本文由Regent Wan原创，关注公众号可以勾搭哟！更多文章请关注公众号：学术创客。
 
-#### 1.特点
+![学术创客](https://github.com/RegentWan/python/blob/master/%E5%AD%A6%E6%9C%AF%E5%88%9B%E5%AE%A2.png)
+
+
+# jieba库——中文分词处理
+
+## 1.特点
 
 - 支持三种分词模式：
   - 精确模式：试图将句子最精确地切开，不存在冗余单词，适合文本分析；
@@ -10,20 +15,20 @@
 - 支持自定义词典
 - MIT 授权协议
 
-#### 2.安装与使用
+## 2.安装与使用
 
 - 全自动安装：`easy_install jieba` 或者 `pip install jieba` / `pip3 install jieba`
 - 半自动安装：先下载 http://pypi.python.org/pypi/jieba/ ，解压后运行 `python setup.py install`
 - 手动安装：将 jieba 目录放置于当前目录或者 site-packages 目录
 - 通过 `import jieba` 来引用
 
-#### 3.原理
+## 3.原理
 
 - 基于前缀词典实现高效的词图扫描，生成句子中汉字所有可能成词情况所构成的有向无环图 (DAG)
 - 采用了动态规划查找最大概率路径, 找出基于词频的最大切分组合
 - 对于未登录词，采用了基于汉字成词能力的 HMM 模型，使用了 Viterbi 算法
 
-#### 4.用法
+## 4.用法
 
 + **分词**
 
@@ -155,5 +160,11 @@
 
   + 标注句子分词后每个词的词性，采用和 ictclas 兼容的标记法。
 
+
+
+
+​		本文由Regent Wan原创，关注公众号可以勾搭哟！更多文章请关注公众号：学术创客。
+
+![学术创客](https://github.com/RegentWan/python/blob/master/%E5%AD%A6%E6%9C%AF%E5%88%9B%E5%AE%A2.png)
     
 
