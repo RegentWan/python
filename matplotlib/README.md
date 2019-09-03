@@ -1,12 +1,17 @@
-### matplotlib——数据可视化
+​		本文由Regent Wan原创，关注公众号可以勾搭哟！更多文章请关注公众号：学术创客。
 
-#### 1.简介
+![学术创客](https://github.com/RegentWan/python/blob/master/%E5%AD%A6%E6%9C%AF%E5%88%9B%E5%AE%A2.png)
+
+
+# matplotlib——数据可视化
+
+## 1.简介
 
 数据的处理、分析和可视化已经成为Python近年来最为重要的应用领域之一，其中数据的可视化指的是将数据呈现为漂亮的统计图表，然后进一步发现数据中包含的规律以及隐藏的信息。
 
 ![1567049490506](https://github.com/RegentWan/python/blob/master/matplotlib/res/1567049490506.png)
 
-#### 2.安装与使用
+## 2.安装与使用
 
 + 安装：使用pip命令进行安装：`pip install matplotlib`
 
@@ -23,7 +28,7 @@
 
   ![1566996633457](https://github.com/RegentWan/python/blob/master/matplotlib/res/1566996633457.png)
 
-#### 3.参数详解
+## 3.参数详解
 
 + 图片大小（绘图函数前设置）：`fig=plt.figure(figsize=(20,8),dpi=80)`
 
@@ -139,7 +144,7 @@
 
   
 
-#### 4.常用统计图
+## 4.常用统计图
 
 + 参数调整同plot
 
@@ -311,3 +316,8 @@
 
 + 更多图形参考https://matplotlib.org/gallery/index.html
 
+
+
+​		本文由Regent Wan原创，关注公众号可以勾搭哟！更多文章请关注公众号：学术创客。
+
+![学术创客](https://github.com/RegentWan/python/blob/master/%E5%AD%A6%E6%9C%AF%E5%88%9B%E5%AE%A2.png)
