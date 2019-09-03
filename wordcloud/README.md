@@ -1,10 +1,15 @@
-### wordcloud库——词云绘制
+​		本文由Regent Wan原创，关注公众号可以勾搭哟！更多文章请关注公众号：学术创客。
 
-#### 1.介绍
+![学术创客](https://github.com/RegentWan/python/blob/master/%E5%AD%A6%E6%9C%AF%E5%88%9B%E5%AE%A2.png)
+
+
+# wordcloud库——词云绘制
+
+## 1.介绍
 
 + 词云又叫文字云，是对文本数据中出现频率较高的“关键词”在视觉上的突出呈现，形成关键词的渲染形成类似云一样的彩色图片，从而一眼就可以领略文本数据的主要表达意思。
 
-#### 2.安装与使用
+## 2.安装与使用
 + pip install wordcloud
 
 + python开发环境、jieba、matplotlib、numpy 、PIL 等库文件安装好。
@@ -62,7 +67,7 @@
   - 根据统计配置字号
   - 颜色环境尺寸
 
-#### 3.参数配置
+## 3.参数配置
 
 + 对象参数配置(在创建是指定参数)
 
@@ -190,3 +195,8 @@ plt.show()
 ~~~
 
 ![1566912387980](https://github.com/RegentWan/python/blob/master/wordcloud/res/1566912387980.png)
+
+
+​		本文由Regent Wan原创，关注公众号可以勾搭哟！更多文章请关注公众号：学术创客。
+
+![学术创客](https://github.com/RegentWan/python/blob/master/%E5%AD%A6%E6%9C%AF%E5%88%9B%E5%AE%A2.png)
